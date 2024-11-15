@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>301</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>401</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="kmmile_layout">
+      <item>
+       <widget class="QDoubleSpinBox" name="kmmile_km"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="kmmile_label">
+        <property name="text">
+         <string>km/mile</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="kmmile_mile"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="inchcm_layout">
+      <item>
+       <widget class="QDoubleSpinBox" name="inchcm_inch"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="inchcm_label">
+        <property name="text">
+         <string>inch/cm</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="inchcm_cm"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="fc_layout">
+      <item>
+       <widget class="QDoubleSpinBox" name="fc_f"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="fc_label">
+        <property name="text">
+         <string>F/C</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="fc_c"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
